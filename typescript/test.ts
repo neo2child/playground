@@ -1,8 +1,9 @@
-class Startup {
-  public static main(): number {
-    console.log("Hellosis World");
-    return 0;
-  }
+function sumArithmaticSeq(start, end) {
+    var sum = 0;
+    for (var i = start; i < (end + 1); i++) {
+        sum += i;
+        console.log(sum);
+    }
+    return sum;
 }
-
-Startup.main();
+console.log(sumArithmaticSeq(1, 10));

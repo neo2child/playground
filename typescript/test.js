@@ -1,11 +1,9 @@
-var Startup = /** @class */ (function () {
-    function Startup() {
+function sumArithmaticSeq(start, end) {
+    var sum = 0;
+    for (var i = start; i < (end + 1); i++) {
+        sum += i;
+        console.log(sum);
     }
-    Startup.main = function () {
-        console.log("Hellosis World");
-        return 0;
-    };
-    return Startup;
-}());
-Startup.main();
-//# sourceMappingURL=test.js.map
+    return sum;
+}
+console.log(sumArithmaticSeq(1, 10));

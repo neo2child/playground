@@ -4,7 +4,7 @@ var todo: [String] = ["장보기", "과제하기", "이메일 답장하기"]
 
 todo.append("식당예약")
 
-todo += ["책빌리기"]
+todo += ["책빌리기", "운동하기"]
 
 let tasks = ["염색하기"]
 

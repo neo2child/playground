@@ -1,9 +1,9 @@
-function prepareCake (flavor) {
-  return function () {
-    setTimeout(_ => console.log('Made a ${flavor} cake!', 1000))
-  }
+function sumArithmaticSequence(x) {
+	if (x < 0) {
+		return 0;
+	}
+  var result = x + sumArithmaticSequence(x-1);
+  return result;
 }
-const makeCakeLater = prepareCake(‘banana’);
-// And later in your code…
-makeCakeLater()
-// Made a banana cake!
+
+console.log(sumArithmaticSequence(6));

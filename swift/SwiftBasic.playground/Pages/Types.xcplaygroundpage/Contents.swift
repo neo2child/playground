@@ -9,7 +9,7 @@ let address = contry + ", " + province + ", " + city
 print(address)
 
 //String Interpolration
-let interploration = "\(contry) \(province) \(city)"
+let interploration = "\(contry), \(province), \(city)"
 print(interploration)
 
 let interpolrationStreetAddress = "\(street) \(streetNumber)"
@@ -23,7 +23,7 @@ let year = 2014
 var version = 3.1 // Double
 
 // Boolean
-let isFun = true // Bool (ture = 1, false = 0
+let isFun = true // Bool (ture = 1, false = 0)
 
 
 //Type Safty
